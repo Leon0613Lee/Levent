@@ -1,0 +1,222 @@
+.row
+{
+	margin-top: 1%;
+}
+
+body
+{
+	background-color: #ffab40;
+
+}
+
+.img1
+{
+	width: 39.5%;
+	height: 35vh;
+	display: inline-block;
+	margin: 1% 0 0 10%;
+	position: relative;
+}
+
+.img1 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	transition: .3s;
+}
+
+.img1:hover img{
+	filter: blur(2px) brightness(60%);
+	box-shadow: 0 0 16px black;
+	cursor: pointer;
+}
+
+.img1 :not(img)
+{
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+}
+
+.img1:hover :not(img){
+	opacity: 1;
+	cursor: pointer;
+}
+
+.img2
+{
+	width: 39.5%;
+	height: 35vh;
+	display: inline-block;
+	margin: 1% 0 0 2%;
+	position: relative;
+}
+
+.img2 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	transition: .3s;
+}
+
+.img2:hover img{
+	filter: blur(2px) brightness(60%);
+	box-shadow: 0 0 16px black;
+	cursor: pointer;
+}
+
+.img2 :not(img)
+{
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+}
+
+.img2:hover :not(img){
+	opacity: 1;
+	cursor: pointer;
+}
+
+.img3
+{
+	width: 25%;
+	height: 30vh;
+	display: inline-block;
+	margin: 1% 0 0 10%;
+	position: relative;
+}
+
+.img3 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	transition: .3s;
+}
+
+.img3:hover img{
+	filter: blur(2px) brightness(60%);
+	box-shadow: 0 0 16px black;
+	cursor: pointer;
+}
+
+.img3 :not(img)
+{
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+}
+
+.img3:hover :not(img){
+	opacity: 1;
+	cursor: pointer;
+}
+
+.img4
+{
+	width: 25%;
+	height: 30vh;
+	display: inline-block;
+	margin: 1% 0 0 3%;
+	position: relative;
+}
+
+.img4 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	transition: .3s;
+}
+
+.img4:hover img{
+	filter: blur(2px) brightness(60%);
+	box-shadow: 0 0 16px black;
+	cursor: pointer;
+}
+
+.img4 :not(img)
+{
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+}
+
+.img4:hover :not(img){
+	opacity: 1;
+	cursor: pointer;
+}
+
+.bg1
+{
+	background-image: url(img/bg.jpg);
+	max-width: 88%;
+	margin-left: 6%;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.input-group textarea{
+	columns: 50;
+	
+}
